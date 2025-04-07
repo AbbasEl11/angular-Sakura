@@ -1,6 +1,7 @@
 *{
     margin: 0;
-;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 /* raleway-regular - latin */
@@ -13,6 +14,18 @@
     src: url('./assets/fonts/raleway-v34-latin-regular.woff2') format('woff2');
     /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
+
+/* raleway-regular - latin */
+@font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'economica';
+    font-style: normal;
+    font-weight: 400;
+    src: url('./assets/fonts/Economica-Regular.ttf') format('woff2');
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
 
 .fontRaleWay{
     font-family: "Raleway";
