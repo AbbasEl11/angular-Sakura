@@ -1,0 +1,59 @@
+nav {
+    width: 100%;
+    display: flex;
+    >img{
+        position: absolute;
+        top: 30px;
+        right: 80px;
+        left: 30px;
+        width: 64px;
+        height: 64px;
+    }
+    >div{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    height: 100px;
+    font-family: 'raleway';
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 80%;
+        >a {
+            text-decoration: none;
+            color: whitesmoke;
+            margin: 0 20px;
+            &:hover {
+                text-decoration: underline;
+                color: red;
+            }
+        }
+    }
+}
+
+
+.number {
+    background-color: rgb(151, 0, 0);
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 8px;
+    padding-left: 15px;
+    padding-right: 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    >img{
+        width: 20px;
+        height: 20px;
+        margin-right: 5px;
+    }
+    >a{
+        text-decoration: none;
+        color: white;    
+        &:hover {
+            color: black;
+        }
+    }
+}
+
