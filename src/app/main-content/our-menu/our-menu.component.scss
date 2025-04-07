@@ -1,0 +1,52 @@
+section {
+     background-image: url(../../../assets/img/background.jpg);
+     background-repeat: no-repeat;
+     background-position: bottom;
+     background-size: cover;
+     object-fit: fill;
+     display: flex;
+     flex-direction: column;
+
+     >h2 {
+        margin-top: 10px;
+        margin-bottom: 40px;
+        font-family: 'raleway';
+        font-weight: bold;
+        font-size: 40px;
+        color: brown;
+        display: flex;
+        justify-content: center;
+     }
+     >div {
+            font-family: 'Raleway';
+            font-weight: bold;
+            color: rgb(99, 96, 96);
+            font-size: 30px;
+            margin-left: 70px;
+            margin-right: 20px;
+            display: flex;
+            justify-content: center;
+
+            >img {
+                    display: flex;
+                    margin-right: 20px;
+                    margin-bottom: 20px;
+                }
+            
+            >div {
+
+                    >h2{
+                       font-family: 'economica';
+                       font-weight: bold;
+                       color: black;
+                       font-size: 70px;
+                       margin-bottom: 40px;
+                    }
+                    >table tr td {
+                        padding-right: 200px;
+                        padding-top: 5px;
+                        padding-bottom: 20px;
+                    }
+            }
+     }
+ }
