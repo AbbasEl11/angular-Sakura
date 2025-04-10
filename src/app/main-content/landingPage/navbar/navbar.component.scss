@@ -32,11 +32,16 @@ nav {
     }
 }
 
+// define a mixing for border styling
+
+@mixin borderStyling(){
+        border: 2px solid white;
+        border-radius: 5px;
+}
 
 .number {
     background-color: rgb(151, 0, 0);
-    border: 2px solid white;
-    border-radius: 5px;
+    @include borderStyling();
     padding: 8px;
     padding-left: 15px;
     padding-right: 15px;
